@@ -22,3 +22,8 @@ jobs:
     - run: npm ci
     - run: npm test
     - run: node xray.js
+    - name: Create comment
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          issue-number: 1
+          body: ${{ steps.get-comment-body.outputs.body }}
