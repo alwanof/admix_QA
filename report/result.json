@@ -1,0 +1,305 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "as-a--user-i-can-login-successfully;as-a--user-i-can-login-successfully",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "As a  user I can login successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4878861
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on adv login page",
+            "match": {
+              "location": "features/step_definitions/base.js:46"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 510834,
+              "error_message": "ReferenceError: driver is not defined\n    at World.<anonymous> (/Users/muradalwan/Documents/selenium/selenuimTest-lampda/features/step_definitions/base.js:47:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I type \"mohammed.murad@admixplay.com\" and \"Zoom+9321\"",
+            "match": {
+              "location": "features/step_definitions/as_a_user_i_can_login_successfully.js:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be told \"Authorized\"",
+            "match": {
+              "location": "features/step_definitions/as_a_user_i_can_login_successfully.js:50"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 251272,
+              "error_message": "ReferenceError: driver is not defined\n    at World.<anonymous> (/Users/muradalwan/Documents/selenium/selenuimTest-lampda/features/step_definitions/base.js:40:5)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TEST_TECH-7664",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a--user-i-can-login-successfully;as-a--user-i-can-login-successfully",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "As a  user I can login successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 905001
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on adv login page",
+            "match": {
+              "location": "features/step_definitions/base.js:46"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 130139,
+              "error_message": "ReferenceError: driver is not defined\n    at World.<anonymous> (/Users/muradalwan/Documents/selenium/selenuimTest-lampda/features/step_definitions/base.js:47:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I type \"medo199.com\" and \"Zoom+9321\"",
+            "match": {
+              "location": "features/step_definitions/as_a_user_i_can_login_successfully.js:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be told \"InvEmail\"",
+            "match": {
+              "location": "features/step_definitions/as_a_user_i_can_login_successfully.js:50"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 116250,
+              "error_message": "ReferenceError: driver is not defined\n    at World.<anonymous> (/Users/muradalwan/Documents/selenium/selenuimTest-lampda/features/step_definitions/base.js:40:5)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TEST_TECH-7664",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a--user-i-can-login-successfully;as-a--user-i-can-login-successfully",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "As a  user I can login successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 289102
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on adv login page",
+            "match": {
+              "location": "features/step_definitions/base.js:46"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 91692,
+              "error_message": "ReferenceError: driver is not defined\n    at World.<anonymous> (/Users/muradalwan/Documents/selenium/selenuimTest-lampda/features/step_definitions/base.js:47:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I type \"mohammed.murad@admixplay.com\" and \"DsopF93+22\"",
+            "match": {
+              "location": "features/step_definitions/as_a_user_i_can_login_successfully.js:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be told \"InvPassword\"",
+            "match": {
+              "location": "features/step_definitions/as_a_user_i_can_login_successfully.js:50"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 111250,
+              "error_message": "ReferenceError: driver is not defined\n    at World.<anonymous> (/Users/muradalwan/Documents/selenium/selenuimTest-lampda/features/step_definitions/base.js:40:5)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TEST_TECH-7664",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a--user-i-can-login-successfully;as-a--user-i-can-login-successfully",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "As a  user I can login successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 245601
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on adv login page",
+            "match": {
+              "location": "features/step_definitions/base.js:46"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 83905,
+              "error_message": "ReferenceError: driver is not defined\n    at World.<anonymous> (/Users/muradalwan/Documents/selenium/selenuimTest-lampda/features/step_definitions/base.js:47:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I type \"mohammed.murad@admixplay.com\" and \"zoom94\"",
+            "match": {
+              "location": "features/step_definitions/as_a_user_i_can_login_successfully.js:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be told \"ShortPassword\"",
+            "match": {
+              "location": "features/step_definitions/as_a_user_i_can_login_successfully.js:50"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 102996,
+              "error_message": "ReferenceError: driver is not defined\n    at World.<anonymous> (/Users/muradalwan/Documents/selenium/selenuimTest-lampda/features/step_definitions/base.js:40:5)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TEST_TECH-7664",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a--user-i-can-login-successfully",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "As a  user I can login successfully",
+    "tags": [],
+    "uri": "features/as_a _user_I_can_login_successfully.feature"
+  }
+]
