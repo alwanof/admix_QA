@@ -20,9 +20,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
-      id: run_tests
-    - name: Create comment
-      uses: peter-evans/create-or-update-comment@v1
-      with:
-        issue-number: 1
-        body: ${{join(steps.run_tests.outputs.*, '\n')}}
+    - run: npm test
+    - run: node xray.js
