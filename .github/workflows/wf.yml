@@ -1,5 +1,6 @@
 name: QA Deploy
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -18,5 +19,4 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci
-    - run: npm test
+    - run: echo "GH_REPO"
