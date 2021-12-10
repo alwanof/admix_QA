@@ -30,7 +30,7 @@ Before(async function(scenario) {
         console: true,
         video: true,
         name: title, // name of the test
-        build: 'Adv. QA Automation Testing' // name of the build
+        build: 'Adv. QA Automation Testing '+new Date().toJSON().slice(0,10).replace(/-/g,'-'), // name of the build
     }
 
     const gridUrl = process.env.GRID_HOST;
