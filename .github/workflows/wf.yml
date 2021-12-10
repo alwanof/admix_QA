@@ -25,4 +25,4 @@ jobs:
       uses: peter-evans/create-or-update-comment@v1
       with:
         issue-number: 1
-        body: ${{join(steps.run_tests.outputs.*, '\n')}}
+        body: This is a multi-line test comment
