@@ -4,77 +4,133 @@
     "elements": [
       {
         "description": "",
-        "id": "as-a--user-i-can-login-successfully;as-a--user-i-can-login-successfully",
+        "id": "as-a--user-i-can-create-campain;as-a--user-i-can-create-campain",
         "keyword": "Scenario Outline",
-        "line": 4,
-        "name": "As a  user I can login successfully",
+        "line": 3,
+        "name": "As a  user I can create campain",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 4878861
+              "duration": 1415906912
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 4,
             "name": "I am on adv login page",
             "match": {
-              "location": "features/step_definitions/base.js:46"
+              "location": "features/step_definitions/base.js:69"
             },
             "result": {
-              "status": "failed",
-              "duration": 510834,
-              "error_message": "ReferenceError: driver is not defined\n    at World.<anonymous> (/Users/muradalwan/Documents/selenium/selenuimTest-lampda/features/step_definitions/base.js:47:5)"
+              "status": "passed",
+              "duration": 7341179100
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 6,
-            "name": "I type \"mohammed.murad@admixplay.com\" and \"Zoom+9321\"",
+            "line": 5,
+            "name": "I type authorized",
             "match": {
-              "location": "features/step_definitions/as_a_user_i_can_login_successfully.js:9"
+              "location": "features/step_definitions/as_a _user_I_can_create_campaign.js:9"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 436307213
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I select the campain type",
+            "match": {
+              "location": "features/step_definitions/as_a _user_I_can_create_campaign.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3303766669
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I navigate to the campain page",
+            "match": {
+              "location": "features/step_definitions/as_a _user_I_can_create_campaign.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95322846
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I fill campaign form with valid data",
+            "match": {
+              "location": "features/step_definitions/as_a _user_I_can_create_campaign.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1043177394.9999999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click campain - save and continue",
+            "match": {
+              "location": "features/step_definitions/as_a _user_I_can_create_campaign.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122305774
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
-            "name": "I should be told \"Authorized\"",
+            "line": 10,
+            "name": "I should be told mission done",
             "match": {
-              "location": "features/step_definitions/as_a_user_i_can_login_successfully.js:50"
+              "location": "features/step_definitions/as_a _user_I_can_create_campaign.js:42"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 9351148113
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 251272,
-              "error_message": "ReferenceError: driver is not defined\n    at World.<anonymous> (/Users/muradalwan/Documents/selenium/selenuimTest-lampda/features/step_definitions/base.js:40:5)"
+              "status": "passed",
+              "duration": 228150
             }
           }
         ],
-        "tags": [
-          {
-            "name": "@TEST_TECH-7664",
-            "line": 3
-          }
-        ],
+        "tags": [],
         "type": "scenario"
-      },
+      }
+    ],
+    "id": "as-a--user-i-can-create-campain",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "As a  user I can create campain",
+    "tags": [],
+    "uri": "features/as_a _user_I_can_create_campaign.feature"
+  },
+  {
+    "description": "",
+    "elements": [
       {
         "description": "",
         "id": "as-a--user-i-can-login-successfully;as-a--user-i-can-login-successfully",
@@ -87,7 +143,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 905001
+              "duration": 1337448889
             }
           },
           {
@@ -96,12 +152,11 @@
             "line": 5,
             "name": "I am on adv login page",
             "match": {
-              "location": "features/step_definitions/base.js:46"
+              "location": "features/step_definitions/base.js:69"
             },
             "result": {
-              "status": "failed",
-              "duration": 130139,
-              "error_message": "ReferenceError: driver is not defined\n    at World.<anonymous> (/Users/muradalwan/Documents/selenium/selenuimTest-lampda/features/step_definitions/base.js:47:5)"
+              "status": "passed",
+              "duration": 9110994737
             }
           },
           {
@@ -113,8 +168,8 @@
               "location": "features/step_definitions/as_a_user_i_can_login_successfully.js:9"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 339833531
             }
           },
           {
@@ -126,163 +181,16 @@
               "location": "features/step_definitions/as_a_user_i_can_login_successfully.js:50"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 174310
             }
           },
           {
             "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "failed",
-              "duration": 116250,
-              "error_message": "ReferenceError: driver is not defined\n    at World.<anonymous> (/Users/muradalwan/Documents/selenium/selenuimTest-lampda/features/step_definitions/base.js:40:5)"
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@TEST_TECH-7664",
-            "line": 3
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "as-a--user-i-can-login-successfully;as-a--user-i-can-login-successfully",
-        "keyword": "Scenario Outline",
-        "line": 4,
-        "name": "As a  user I can login successfully",
-        "steps": [
-          {
-            "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 289102
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "I am on adv login page",
-            "match": {
-              "location": "features/step_definitions/base.js:46"
-            },
-            "result": {
-              "status": "failed",
-              "duration": 91692,
-              "error_message": "ReferenceError: driver is not defined\n    at World.<anonymous> (/Users/muradalwan/Documents/selenium/selenuimTest-lampda/features/step_definitions/base.js:47:5)"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "I type \"mohammed.murad@admixplay.com\" and \"DsopF93+22\"",
-            "match": {
-              "location": "features/step_definitions/as_a_user_i_can_login_successfully.js:9"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 7,
-            "name": "I should be told \"InvPassword\"",
-            "match": {
-              "location": "features/step_definitions/as_a_user_i_can_login_successfully.js:50"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "failed",
-              "duration": 111250,
-              "error_message": "ReferenceError: driver is not defined\n    at World.<anonymous> (/Users/muradalwan/Documents/selenium/selenuimTest-lampda/features/step_definitions/base.js:40:5)"
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@TEST_TECH-7664",
-            "line": 3
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "as-a--user-i-can-login-successfully;as-a--user-i-can-login-successfully",
-        "keyword": "Scenario Outline",
-        "line": 4,
-        "name": "As a  user I can login successfully",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 245601
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "I am on adv login page",
-            "match": {
-              "location": "features/step_definitions/base.js:46"
-            },
-            "result": {
-              "status": "failed",
-              "duration": 83905,
-              "error_message": "ReferenceError: driver is not defined\n    at World.<anonymous> (/Users/muradalwan/Documents/selenium/selenuimTest-lampda/features/step_definitions/base.js:47:5)"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "I type \"mohammed.murad@admixplay.com\" and \"zoom94\"",
-            "match": {
-              "location": "features/step_definitions/as_a_user_i_can_login_successfully.js:9"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 7,
-            "name": "I should be told \"ShortPassword\"",
-            "match": {
-              "location": "features/step_definitions/as_a_user_i_can_login_successfully.js:50"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "failed",
-              "duration": 102996,
-              "error_message": "ReferenceError: driver is not defined\n    at World.<anonymous> (/Users/muradalwan/Documents/selenium/selenuimTest-lampda/features/step_definitions/base.js:40:5)"
+              "duration": 65670
             }
           }
         ],

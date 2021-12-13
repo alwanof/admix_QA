@@ -47,9 +47,12 @@ When("I type {string} and {string}", {timeout: process.env.TIMEOUT * 1000}, asyn
     
 });
 
-Then("I should be told {string}", {timeout: process.env.TIMEOUT * 1000}, async function (answer) {
+Then("I should be told {string}", {timeout: process.env.TIMEOUT * 1000}, function (answer) {
     assert(answer == this.actualAnswer);
-    driver.executeScript("lambda-status=passed");
+    if(process.env.LOCAL_TESTING == "false"){
+      driver.executeScript("lambda-status=passed");
+    }
+    
     
 
 

@@ -1,9 +1,6 @@
 name: QA Deploy
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
 jobs:
   build:
     name: Run Auto Test
