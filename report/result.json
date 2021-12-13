@@ -4,135 +4,6 @@
     "elements": [
       {
         "description": "",
-        "id": "as-a--user-i-can-create-campain;as-a--user-i-can-create-campain",
-        "keyword": "Scenario Outline",
-        "line": 3,
-        "name": "As a  user I can create campain",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1415906912
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "I am on adv login page",
-            "match": {
-              "location": "features/step_definitions/base.js:69"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 7341179100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 5,
-            "name": "I type authorized",
-            "match": {
-              "location": "features/step_definitions/as_a _user_I_can_create_campaign.js:9"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 436307213
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "I select the campain type",
-            "match": {
-              "location": "features/step_definitions/as_a _user_I_can_create_campaign.js:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3303766669
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "I navigate to the campain page",
-            "match": {
-              "location": "features/step_definitions/as_a _user_I_can_create_campaign.js:23"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 95322846
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "I fill campaign form with valid data",
-            "match": {
-              "location": "features/step_definitions/as_a _user_I_can_create_campaign.js:27"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1043177394.9999999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "I click campain - save and continue",
-            "match": {
-              "location": "features/step_definitions/as_a _user_I_can_create_campaign.js:37"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 122305774
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 10,
-            "name": "I should be told mission done",
-            "match": {
-              "location": "features/step_definitions/as_a _user_I_can_create_campaign.js:42"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 9351148113
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 228150
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      }
-    ],
-    "id": "as-a--user-i-can-create-campain",
-    "line": 1,
-    "keyword": "Feature",
-    "name": "As a  user I can create campain",
-    "tags": [],
-    "uri": "features/as_a _user_I_can_create_campaign.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
         "id": "as-a--user-i-can-login-successfully;as-a--user-i-can-login-successfully",
         "keyword": "Scenario Outline",
         "line": 4,
@@ -143,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1337448889
+              "duration": 1328370029
             }
           },
           {
@@ -152,11 +23,11 @@
             "line": 5,
             "name": "I am on adv login page",
             "match": {
-              "location": "features/step_definitions/base.js:69"
+              "location": "features/step_definitions/base.js:72"
             },
             "result": {
               "status": "passed",
-              "duration": 9110994737
+              "duration": 8909328203
             }
           },
           {
@@ -169,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 339833531
+              "duration": 350104336
             }
           },
           {
@@ -182,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 174310
+              "duration": 194300
             }
           },
           {
@@ -190,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 65670
+              "duration": 206815
             }
           }
         ],
@@ -208,6 +79,6 @@
     "keyword": "Feature",
     "name": "As a  user I can login successfully",
     "tags": [],
-    "uri": "features/as_a _user_I_can_login_successfully.feature"
+    "uri": "features/user_can_login.feature"
   }
 ]
