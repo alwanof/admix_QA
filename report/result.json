@@ -4,17 +4,17 @@
     "elements": [
       {
         "description": "",
-        "id": "as-a--user-i-can-login-successfully;as-a--user-i-can-login-successfully",
-        "keyword": "Scenario Outline",
+        "id": "as-a-user-i-can-create-simple-campaign;as-a-user-i-can-create-simple-campaign",
+        "keyword": "Scenario",
         "line": 4,
-        "name": "As a  user I can login successfully",
+        "name": "As a user I can create simple campaign",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1328370029
+              "duration": 1296818596
             }
           },
           {
@@ -27,33 +27,99 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8909328203
+              "duration": 5365179205
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 6,
-            "name": "I type \"medo199.com\" and \"Zoom+9321\"",
+            "name": "I type authorized",
             "match": {
-              "location": "features/step_definitions/as_a_user_i_can_login_successfully.js:9"
+              "location": "features/step_definitions/create_campaign.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 350104336
+              "duration": 437429653
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I select the campain type",
+            "match": {
+              "location": "features/step_definitions/create_campaign.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 530730085.00000006
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I navigate to the campain page",
+            "match": {
+              "location": "features/step_definitions/create_campaign.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 101099780
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I fill campaign form with valid data",
+            "match": {
+              "location": "features/step_definitions/create_campaign.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2030216234
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click campain - save and continue",
+            "match": {
+              "location": "features/step_definitions/create_campaign.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116945585
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
-            "name": "I should be told \"InvEmail\"",
+            "line": 11,
+            "name": "I should be told mission done",
             "match": {
-              "location": "features/step_definitions/as_a_user_i_can_login_successfully.js:50"
+              "location": "features/step_definitions/create_campaign.js:53"
             },
             "result": {
               "status": "passed",
-              "duration": 194300
+              "duration": 1091603011
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Remove Campaign",
+            "match": {
+              "location": "features/step_definitions/create_campaign.js:61"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1368332580,
+              "error_message": "ElementNotInteractableError: element not interactable: element has zero size\n  (Session info: chrome=96.0.4664.93)\n    at Object.throwDecodedError (/Users/muradalwan/Documents/selenium/admix_qa_lab/node_modules/selenium-webdriver/lib/error.js:539:15)\n    at parseHttpResponse (/Users/muradalwan/Documents/selenium/admix_qa_lab/node_modules/selenium-webdriver/lib/http.js:647:13)\n    at Executor.execute (/Users/muradalwan/Documents/selenium/admix_qa_lab/node_modules/selenium-webdriver/lib/http.js:573:28)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at async Driver.execute (/Users/muradalwan/Documents/selenium/admix_qa_lab/node_modules/selenium-webdriver/lib/webdriver.js:735:17)\n    at async World.<anonymous> (/Users/muradalwan/Documents/selenium/admix_qa_lab/features/step_definitions/create_campaign.js:68:5)"
             }
           },
           {
@@ -61,24 +127,24 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 206815
+              "duration": 166737
             }
           }
         ],
         "tags": [
           {
-            "name": "@TEST_TECH-7664",
+            "name": "@TEST_TECH-7665",
             "line": 3
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "as-a--user-i-can-login-successfully",
+    "id": "as-a-user-i-can-create-simple-campaign",
     "line": 1,
     "keyword": "Feature",
-    "name": "As a  user I can login successfully",
+    "name": "As a user I can create simple campaign",
     "tags": [],
-    "uri": "features/user_can_login.feature"
+    "uri": "features/create_campaign.feature"
   }
 ]

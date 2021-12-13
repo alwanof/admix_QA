@@ -1,6 +1,7 @@
-Feature: As a  user I can create campain
+Feature: As a user I can create simple campaign
 
-    Scenario Outline: As a  user I can create campain
+    @TEST_TECH-7665
+    Scenario: As a user I can create simple campaign
         Given I am on adv login page
         When I type authorized
         And I select the campain type
@@ -8,3 +9,4 @@ Feature: As a  user I can create campain
         And I fill campaign form with valid data
         And  I click campain - save and continue
         Then I should be told mission done
+        And  Remove Campaign

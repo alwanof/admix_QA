@@ -71,6 +71,7 @@ Before(async function(scenario) {
 
 Given("I am on adv login page", {timeout: process.env.TIMEOUT * 1000}, async function () {
     await driver.get(process.env.BASE_URL+'/login');
+   
     this.actualAnswer = "none";
 });
 
