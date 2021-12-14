@@ -6,16 +6,7 @@ const {Builder,By,Key,Keys,until}=require('selenium-webdriver');
 
 
 
-When("I type authorized", {timeout: process.env.TIMEOUT * 1000}, async function () {
-  
-    let email = driver.findElement(By.id("email"));
-    let password = driver.findElement(By.id("password"));
-    let login=driver.findElement(By.xpath("//button[@type='submit']"));   
-    await email.sendKeys(process.env.USER_LOGIN);
-    await password.sendKeys(process.env.USER_PASSWORD);
-    await login.click();
-    
-});
+
 When("I select the campain type", {timeout: process.env.TIMEOUT * 1000}, async function () { 
    await driver.wait(until.elementLocated(By.css(".ant-btn > .ant-row")),20000).click() 
 });
@@ -50,7 +41,7 @@ When("I click campain - save and continue", {timeout: process.env.TIMEOUT * 1000
 
 });
 
-Then("I should be told mission done", {timeout: process.env.TIMEOUT * 1000}, async function () {
+Then("User has been created campaign successfully", {timeout: process.env.TIMEOUT * 1000}, async function () {
     var answer=await driver.wait(until.elementLocated(By.css(".campaign-step-filter-apps h2")),20000).getText()
     assert(answer,'Filter Apps');
   
@@ -58,15 +49,7 @@ Then("I should be told mission done", {timeout: process.env.TIMEOUT * 1000}, asy
       driver.executeScript("lambda-status=passed");
     }
 });
-Then("Remove Campaign", {timeout: process.env.TIMEOUT * 1000}, async function () {
-    
-    await driver.get("https://ads-dev.admixplay.com/overview")
-    await driver.manage().window().maximize();
-    //await driver.wait(until.elementLocated(By.css(".ant-table-row:nth-child(1) .campaigns-overview-menu-actions-wrapper svg")),20000).click()
-    await driver.findElement(By.css(".ant-table-row:nth-child(1) .campaigns-overview-menu-actions-wrapper svg")).click()
-    await driver.findElement(By.xpath("/html/body/div[3]/div/div/ul/li[3]")).click() 
-    await driver.findElement(By.xpath("/html/body/div[4]/div/div[2]/div/div[2]/div/div/button[2]")).click()
- });
+
 
 
 

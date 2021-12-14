@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1296818596
+              "duration": 4469747
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5365179205
+              "duration": 8610862368
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 6,
             "name": "I type authorized",
             "match": {
-              "location": "features/step_definitions/create_campaign.js:9"
+              "location": "features/step_definitions/base.js:78"
             },
             "result": {
               "status": "passed",
-              "duration": 437429653
+              "duration": 4038973278
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 7,
             "name": "I select the campain type",
             "match": {
-              "location": "features/step_definitions/create_campaign.js:19"
+              "location": "features/step_definitions/create_campaign.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 530730085.00000006
+              "duration": 3927959563
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 8,
             "name": "I navigate to the campain page",
             "match": {
-              "location": "features/step_definitions/create_campaign.js:23"
+              "location": "features/step_definitions/create_campaign.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 101099780
+              "duration": 1463550143
             }
           },
           {
@@ -75,11 +75,11 @@
             "line": 9,
             "name": "I fill campaign form with valid data",
             "match": {
-              "location": "features/step_definitions/create_campaign.js:27"
+              "location": "features/step_definitions/create_campaign.js:18"
             },
             "result": {
               "status": "passed",
-              "duration": 2030216234
+              "duration": 51358403148
             }
           },
           {
@@ -88,38 +88,24 @@
             "line": 10,
             "name": "I click campain - save and continue",
             "match": {
-              "location": "features/step_definitions/create_campaign.js:48"
+              "location": "features/step_definitions/create_campaign.js:39"
             },
             "result": {
               "status": "passed",
-              "duration": 116945585
+              "duration": 1729810830
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 11,
-            "name": "I should be told mission done",
+            "name": "User has been created campaign successfully",
             "match": {
-              "location": "features/step_definitions/create_campaign.js:53"
+              "location": "features/step_definitions/create_campaign.js:44"
             },
             "result": {
               "status": "passed",
-              "duration": 1091603011
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "Remove Campaign",
-            "match": {
-              "location": "features/step_definitions/create_campaign.js:61"
-            },
-            "result": {
-              "status": "failed",
-              "duration": 1368332580,
-              "error_message": "ElementNotInteractableError: element not interactable: element has zero size\n  (Session info: chrome=96.0.4664.93)\n    at Object.throwDecodedError (/Users/muradalwan/Documents/selenium/admix_qa_lab/node_modules/selenium-webdriver/lib/error.js:539:15)\n    at parseHttpResponse (/Users/muradalwan/Documents/selenium/admix_qa_lab/node_modules/selenium-webdriver/lib/http.js:647:13)\n    at Executor.execute (/Users/muradalwan/Documents/selenium/admix_qa_lab/node_modules/selenium-webdriver/lib/http.js:573:28)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at async Driver.execute (/Users/muradalwan/Documents/selenium/admix_qa_lab/node_modules/selenium-webdriver/lib/webdriver.js:735:17)\n    at async World.<anonymous> (/Users/muradalwan/Documents/selenium/admix_qa_lab/features/step_definitions/create_campaign.js:68:5)"
+              "duration": 10153956335
             }
           },
           {
@@ -127,7 +113,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 166737
+              "duration": 1915498297
             }
           }
         ],
@@ -146,5 +132,300 @@
     "name": "As a user I can create simple campaign",
     "tags": [],
     "uri": "features/create_campaign.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "as-a--user-i-can-login-successfully;as-a--user-i-can-login-successfully",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "As a  user I can login successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 578253
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on adv login page",
+            "match": {
+              "location": "features/step_definitions/base.js:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11838660794
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I type \"mohammed.murad@admixplay.com\" and \"Zoom+9321\"",
+            "match": {
+              "location": "features/step_definitions/user_can_login.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4619169967
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be told \"Authorized\"",
+            "match": {
+              "location": "features/step_definitions/user_can_login.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 222868
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2014714855
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TEST_TECH-7664",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a--user-i-can-login-successfully;as-a--user-i-can-login-successfully",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "As a  user I can login successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 295612
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on adv login page",
+            "match": {
+              "location": "features/step_definitions/base.js:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9909265993
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I type \"medo199.com\" and \"Zoom+9321\"",
+            "match": {
+              "location": "features/step_definitions/user_can_login.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2226758906
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be told \"InvEmail\"",
+            "match": {
+              "location": "features/step_definitions/user_can_login.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119735
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1370666267
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TEST_TECH-7664",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a--user-i-can-login-successfully;as-a--user-i-can-login-successfully",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "As a  user I can login successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 378924
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on adv login page",
+            "match": {
+              "location": "features/step_definitions/base.js:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7745955320
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I type \"mohammed.murad@admixplay.com\" and \"DsopF93+22\"",
+            "match": {
+              "location": "features/step_definitions/user_can_login.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3294241121
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be told \"InvPassword\"",
+            "match": {
+              "location": "features/step_definitions/user_can_login.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 177220
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1374199034
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TEST_TECH-7664",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a--user-i-can-login-successfully;as-a--user-i-can-login-successfully",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "As a  user I can login successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 363535
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on adv login page",
+            "match": {
+              "location": "features/step_definitions/base.js:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10478836050
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I type \"mohammed.murad@admixplay.com\" and \"zoom94\"",
+            "match": {
+              "location": "features/step_definitions/user_can_login.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6747316647
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be told \"ShortPassword\"",
+            "match": {
+              "location": "features/step_definitions/user_can_login.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118698
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2691830487
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TEST_TECH-7664",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a--user-i-can-login-successfully",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "As a  user I can login successfully",
+    "tags": [],
+    "uri": "features/user_can_login.feature"
   }
 ]

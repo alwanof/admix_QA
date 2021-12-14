@@ -8,5 +8,4 @@ Feature: As a user I can create simple campaign
         And I navigate to the campain page
         And I fill campaign form with valid data
         And  I click campain - save and continue
-        Then I should be told mission done
-        And  Remove Campaign
+        Then User has been created campaign successfully
