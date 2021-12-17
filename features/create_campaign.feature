@@ -9,3 +9,4 @@ Feature: As a user I can create simple campaign
         And I fill campaign form with valid data
         And  I click campain - save and continue
         Then User has been created campaign successfully
+        Then  CLEAN

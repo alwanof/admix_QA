@@ -4,6 +4,369 @@
     "elements": [
       {
         "description": "",
+        "id": "as-a-user-i-can-add-a-new-ad-group-from-campaign-sidebar;as-a-user-i-can-add-a-new-ad-group-from-campaign-sidebar",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "As a user I can add a new ad-group from campaign sidebar",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4432417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on adv login page",
+            "match": {
+              "location": "features/step_definitions/base.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8549907390
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I type authorized",
+            "match": {
+              "location": "features/step_definitions/base.js:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2292228529
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I create new campaign",
+            "match": {
+              "location": "features/step_definitions/base.js:93"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39268567753
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I add new group",
+            "match": {
+              "location": "features/step_definitions/add_adgroup.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57888355177
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I see group added",
+            "match": {
+              "location": "features/step_definitions/add_adgroup.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7905130527
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "CLEAN",
+            "match": {
+              "location": "features/step_definitions/base.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6225062558
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3224556592
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TEST_TECH-7676",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-user-i-can-add-a-new-ad-group-from-campaign-sidebar",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "As a user I can add a new ad-group from campaign sidebar",
+    "tags": [],
+    "uri": "features/add_adgroup.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "as-a-user-i-can-set-freq.-capping-for-any-ad-group;as-a-user-i-can-set-freq.-capping-for-any-ad-group",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "As a user I can set freq. capping for any ad-group",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 607009
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on adv login page",
+            "match": {
+              "location": "features/step_definitions/base.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8376268097
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I type authorized",
+            "match": {
+              "location": "features/step_definitions/base.js:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2456391472.0000005
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I create new campaign",
+            "match": {
+              "location": "features/step_definitions/base.js:93"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40433862242
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I add freq cap",
+            "match": {
+              "location": "features/step_definitions/add_freq.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48208565930
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I see group freq",
+            "match": {
+              "location": "features/step_definitions/add_freq.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1972615591
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "CLEAN",
+            "match": {
+              "location": "features/step_definitions/base.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5927572853
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2755644269
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TEST_TECH-7681",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-user-i-can-set-freq.-capping-for-any-ad-group",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "As a user I can set freq. capping for any ad-group",
+    "tags": [],
+    "uri": "features/add_freq.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "as-a-user-i-can-set-a-targeting-for-any-ad-group;as-a-user-i-can-set-a-targeting-for-any-ad-group",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "As a user I can set a targeting for any ad-group",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 282591
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on adv login page",
+            "match": {
+              "location": "features/step_definitions/base.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9729791102
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I type authorized",
+            "match": {
+              "location": "features/step_definitions/base.js:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2601183098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I create new campaign",
+            "match": {
+              "location": "features/step_definitions/base.js:93"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45247159967
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I add targeting",
+            "match": {
+              "location": "features/step_definitions/add_targeting.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45154411423
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I see group targeting",
+            "match": {
+              "location": "features/step_definitions/add_targeting.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1294009339
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "CLEAN",
+            "match": {
+              "location": "features/step_definitions/base.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10985261515
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2845497167
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TEST_TECH-7680",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-user-i-can-set-a-targeting-for-any-ad-group",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "As a user I can set a targeting for any ad-group",
+    "tags": [],
+    "uri": "features/add_targeting.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
         "id": "as-a-user-i-can-create-simple-campaign;as-a-user-i-can-create-simple-campaign",
         "keyword": "Scenario",
         "line": 4,
@@ -14,7 +377,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 4469747
+              "duration": 1113688
             }
           },
           {
@@ -23,11 +386,11 @@
             "line": 5,
             "name": "I am on adv login page",
             "match": {
-              "location": "features/step_definitions/base.js:72"
+              "location": "features/step_definitions/base.js:76"
             },
             "result": {
               "status": "passed",
-              "duration": 8610862368
+              "duration": 8192903799
             }
           },
           {
@@ -36,11 +399,11 @@
             "line": 6,
             "name": "I type authorized",
             "match": {
-              "location": "features/step_definitions/base.js:78"
+              "location": "features/step_definitions/base.js:82"
             },
             "result": {
               "status": "passed",
-              "duration": 4038973278
+              "duration": 1573610556
             }
           },
           {
@@ -53,7 +416,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3927959563
+              "duration": 911726718
             }
           },
           {
@@ -66,7 +429,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1463550143
+              "duration": 746133317
             }
           },
           {
@@ -79,7 +442,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 51358403148
+              "duration": 26144056936
             }
           },
           {
@@ -92,7 +455,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1729810830
+              "duration": 694567071
             }
           },
           {
@@ -105,7 +468,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10153956335
+              "duration": 1708865571
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "CLEAN",
+            "match": {
+              "location": "features/step_definitions/base.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3828783410
             }
           },
           {
@@ -113,7 +489,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1915498297
+              "duration": 2418348695
             }
           }
         ],
@@ -148,7 +524,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 578253
+              "duration": 283022
             }
           },
           {
@@ -157,11 +533,11 @@
             "line": 5,
             "name": "I am on adv login page",
             "match": {
-              "location": "features/step_definitions/base.js:72"
+              "location": "features/step_definitions/base.js:76"
             },
             "result": {
               "status": "passed",
-              "duration": 11838660794
+              "duration": 8513442252.999999
             }
           },
           {
@@ -174,7 +550,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4619169967
+              "duration": 2663977978
             }
           },
           {
@@ -187,7 +563,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 222868
+              "duration": 291586
             }
           },
           {
@@ -195,7 +571,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2014714855
+              "duration": 2347108140
             }
           }
         ],
@@ -219,7 +595,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 295612
+              "duration": 254208
             }
           },
           {
@@ -228,11 +604,11 @@
             "line": 5,
             "name": "I am on adv login page",
             "match": {
-              "location": "features/step_definitions/base.js:72"
+              "location": "features/step_definitions/base.js:76"
             },
             "result": {
               "status": "passed",
-              "duration": 9909265993
+              "duration": 8137547080
             }
           },
           {
@@ -245,7 +621,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2226758906
+              "duration": 2117689142.0000002
             }
           },
           {
@@ -258,7 +634,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 119735
+              "duration": 187743
             }
           },
           {
@@ -266,7 +642,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1370666267
+              "duration": 2347778851
             }
           }
         ],
@@ -290,7 +666,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 378924
+              "duration": 314588
             }
           },
           {
@@ -299,11 +675,11 @@
             "line": 5,
             "name": "I am on adv login page",
             "match": {
-              "location": "features/step_definitions/base.js:72"
+              "location": "features/step_definitions/base.js:76"
             },
             "result": {
               "status": "passed",
-              "duration": 7745955320
+              "duration": 7659065225
             }
           },
           {
@@ -316,7 +692,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3294241121
+              "duration": 1986470776
             }
           },
           {
@@ -329,7 +705,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 177220
+              "duration": 149829
             }
           },
           {
@@ -337,7 +713,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1374199034
+              "duration": 2317094907
             }
           }
         ],
@@ -361,7 +737,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 363535
+              "duration": 283076
             }
           },
           {
@@ -370,11 +746,11 @@
             "line": 5,
             "name": "I am on adv login page",
             "match": {
-              "location": "features/step_definitions/base.js:72"
+              "location": "features/step_definitions/base.js:76"
             },
             "result": {
               "status": "passed",
-              "duration": 10478836050
+              "duration": 8452544608
             }
           },
           {
@@ -387,7 +763,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6747316647
+              "duration": 1939561639
             }
           },
           {
@@ -400,7 +776,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 118698
+              "duration": 159946
             }
           },
           {
@@ -408,7 +784,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2691830487
+              "duration": 2396992922
             }
           }
         ],

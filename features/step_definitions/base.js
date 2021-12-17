@@ -9,7 +9,7 @@ const chrome = require('selenium-webdriver/chrome');
 
 
 Before(async function(scenario) {
-  let title=scenario.pickle.steps[scenario.pickle.steps.length-1].text;
+  let title=(scenario.pickle.steps[scenario.pickle.steps.length-1].text=='CLEAN')?scenario.pickle.steps[scenario.pickle.steps.length-2].text:scenario.pickle.steps[scenario.pickle.steps.length-1].text;
   
   if(process.env.LOCAL_TESTING=='true'){
     driver = await  new Builder()
@@ -24,7 +24,7 @@ Before(async function(scenario) {
         platform: 'Windows 10',
         browserName: 'Chrome',
         version: '92.0',
-        resolution: '1024x768',
+        resolution: '1920x1080',
         network: true,
         visual: true,
         console: true,
@@ -48,7 +48,8 @@ Before(async function(scenario) {
   After(async function(scenario) {
     
    let title=(scenario.pickle.steps[scenario.pickle.steps.length-1].text=='CLEAN')?scenario.pickle.steps[scenario.pickle.steps.length-2].text:scenario.pickle.steps[scenario.pickle.steps.length-1].text;
-    if(process.env.SCREENSHOT=='true' && process.env.LOCAL_TESTING=='true'){
+
+   if(process.env.SCREENSHOT=='true' && process.env.LOCAL_TESTING=='true'){
       if (scenario.result.status === "FAILED") {
         await driver.takeScreenshot().then(
         function(image){
@@ -60,8 +61,11 @@ Before(async function(scenario) {
        
 
     }
-    await driver.sleep(1000);
-    await driver.quit();
+    await driver.sleep(2000);
+    if(process.env.EXIT_DRIVER=='true'){
+      await driver.quit();
+    }
+    
     
     
 
@@ -116,7 +120,6 @@ Then("CLEAN", {timeout: process.env.TIMEOUT * 1000}, async function () {
     
     await driver.get("https://ads-dev.admixplay.com/overview")
     await driver.manage().window().maximize();
-    //await driver.wait(until.elementLocated(By.css(".ant-table-row:nth-child(1) .campaigns-overview-menu-actions-wrapper svg")),20000).click()
     await driver.findElement(By.css(".ant-table-row:nth-child(1) .campaigns-overview-menu-actions-wrapper svg")).click()
     await driver.findElement(By.xpath("/html/body/div[3]/div/div/ul/li[3]")).click() 
     await driver.findElement(By.xpath("/html/body/div[4]/div/div[2]/div/div[2]/div/div/button[2]")).click()

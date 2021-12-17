@@ -43,7 +43,7 @@ When("I click campain - save and continue", {timeout: process.env.TIMEOUT * 1000
 
 Then("User has been created campaign successfully", {timeout: process.env.TIMEOUT * 1000}, async function () {
     var answer=await driver.wait(until.elementLocated(By.css(".campaign-step-filter-apps h2")),20000).getText()
-    assert(answer,'Filter Apps');
+    assert(answer=='Filter Apps');
   
     if(process.env.LOCAL_TESTING == "false"){
       driver.executeScript("lambda-status=passed");
