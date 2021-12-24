@@ -120,8 +120,11 @@ Then("CLEAN", {timeout: process.env.TIMEOUT * 1000}, async function () {
     
     await driver.get("https://ads-dev.admixplay.com/overview")
     await driver.manage().window().maximize();
+    await driver.sleep(process.env.SLEEP * 1000)
     await driver.findElement(By.css(".ant-table-row:nth-child(1) .campaigns-overview-menu-actions-wrapper svg")).click()
+    await driver.sleep(process.env.SLEEP * 1000)
     await driver.findElement(By.xpath("/html/body/div[3]/div/div/ul/li[3]")).click() 
+    await driver.sleep(process.env.SLEEP * 1000)
     await driver.findElement(By.xpath("/html/body/div[4]/div/div[2]/div/div[2]/div/div/button[2]")).click()
  });
 

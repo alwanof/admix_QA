@@ -7,10 +7,10 @@ const {Builder,By,Key,Keys,until}=require('selenium-webdriver');
 
 
 
-When("I add freq cap", {timeout: process.env.TIMEOUT * 1000}, async function () { 
-  await driver.sleep(7000)
+When("I add {string} freq", {timeout: process.env.TIMEOUT * 1000}, async function (freq) { 
+    await driver.sleep(process.env.SLEEP_2X * 1000)
     await driver.wait(until.elementLocated(By.id("name")),20000).click()
-    await driver.sleep(9000)
+    await driver.sleep(process.env.SLEEP_3X * 1000)
 
    await driver.findElement(By.xpath("/html/body/div[1]/div/section[2]/div/div/section/main/div[4]/div/div/div/div[2]/div/div/form/div/div[1]/div/div/div/div/div/button")).click()
    
@@ -19,26 +19,41 @@ When("I add freq cap", {timeout: process.env.TIMEOUT * 1000}, async function () 
       const element = await driver.findElement(By.id("placementLimit"))
       await driver.actions({ bridge: true}).doubleClick(element).perform()
     }
-    await driver.findElement(By.id("placementLimit")).sendKeys("9")
-    await driver.findElement(By.id("intervalUnit")).click()
-    await driver.findElement(By.css(".ant-select-item-option-active > .ant-select-item-option-content")).click()
+    for (let index = 0; index < 3; index++) {
+      
+        await driver.findElement(By.id("placementLimit")).sendKeys(Key.BACK_SPACE)
+        
+    }
+    try {
+      await driver.findElement(By.id("placementLimit")).sendKeys(freq)
+      await driver.findElement(By.id("intervalUnit")).click()
+      await driver.findElement(By.css(".ant-select-item-option-active > .ant-select-item-option-content")).click()
 
 
-    await driver.findElement(By.id("price")).click()
-    await driver.sleep(5000)
-    await driver.findElement(By.css(".ant-btn-primary > span")).click()
-    await driver.sleep(5000)
-    await driver.findElement(By.css(".reporting-menu-campaign-title")).click()
-   
-   
-
+      await driver.findElement(By.id("price")).click()
+      await driver.sleep(process.env.SLEEP_X * 1000)
+      await driver.findElement(By.css(".ant-btn-primary > span")).click()
+      await driver.sleep(process.env.SLEEP_X * 1000)
+      await driver.findElement(By.css(".reporting-menu-campaign-title")).click()
+    let getAnswer=await driver.wait(until.elementLocated(By.id("placementLimit")),20000).getAttribute("value")
+        
+        if(getAnswer==freq){
+          this.actualAnswer="OK";
+          }else{
+          this.actualAnswer="Nope";
+        }
+      
+    } catch  {
+      this.actualAnswer="Nope";
+      
+    }
+    
     
 });
 
 
-Then("I see group freq", {timeout: process.env.TIMEOUT * 1000}, async function () {
-    var answer=await driver.wait(until.elementLocated(By.id("placementLimit")),20000).getAttribute("value")
-    assert(answer=="159");
+Then("I should be told freq: {string}", {timeout: process.env.TIMEOUT * 1000}, async function (answer) {
+    assert(answer==this.actualAnswer);
     if(process.env.LOCAL_TESTING == "false"){
       driver.executeScript("lambda-status=passed");
     }

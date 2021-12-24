@@ -9,7 +9,7 @@ const {Builder,By,Key,Keys,until}=require('selenium-webdriver');
 
 When("I add new group", {timeout: process.env.TIMEOUT * 1000}, async function () { 
     await driver.wait(until.elementLocated(By.xpath("/html/body/div[1]/div/section[2]/div/div/section/div/div/ul/li[1]/div[3]/div[2]/button")),20000).click()
-    await driver.sleep(5000)
+    await driver.sleep(process.env.SLEEP_X * 1000)
   
     for (let index = 0; index < 24; index++) {
         await driver.findElement(By.id("name")).sendKeys(Key.BACK_SPACE)
@@ -17,7 +17,7 @@ When("I add new group", {timeout: process.env.TIMEOUT * 1000}, async function ()
     }
     await driver.findElement(By.id("name")).sendKeys("MyNewAdGroup")
     await driver.findElement(By.id("price")).click()
-    await driver.sleep(5000)
+    await driver.sleep(process.env.SLEEP_X * 1000)
     await driver.findElement(By.xpath("/html/body/div[1]/div/section[2]/div/div/section/main/div[9]/button")).click()
 });
 

@@ -4,95 +4,69 @@
     "elements": [
       {
         "description": "",
-        "id": "as-a-user-i-can-add-a-new-ad-group-from-campaign-sidebar;as-a-user-i-can-add-a-new-ad-group-from-campaign-sidebar",
-        "keyword": "Scenario",
-        "line": 4,
-        "name": "As a user I can add a new ad-group from campaign sidebar",
+        "id": "fosoo;fosoo",
+        "keyword": "Scenario Outline",
+        "line": 3,
+        "name": "Fosoo",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 4432417
+              "duration": 4384273
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 4,
             "name": "I am on adv login page",
             "match": {
               "location": "features/step_definitions/base.js:76"
             },
             "result": {
               "status": "passed",
-              "duration": 8549907390
+              "duration": 9426724108
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 6,
+            "line": 5,
             "name": "I type authorized",
             "match": {
               "location": "features/step_definitions/base.js:82"
             },
             "result": {
               "status": "passed",
-              "duration": 2292228529
+              "duration": 1619716128
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 7,
+            "line": 6,
             "name": "I create new campaign",
             "match": {
               "location": "features/step_definitions/base.js:93"
             },
             "result": {
               "status": "passed",
-              "duration": 39268567753
+              "duration": 25762530930
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 8,
-            "name": "I add new group",
+            "line": 7,
+            "name": "Make action",
             "match": {
-              "location": "features/step_definitions/add_adgroup.js:10"
+              "location": "features/step_definitions/foosoo.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 57888355177
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "I see group added",
-            "match": {
-              "location": "features/step_definitions/add_adgroup.js:25"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 7905130527
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 10,
-            "name": "CLEAN",
-            "match": {
-              "location": "features/step_definitions/base.js:119"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 6225062558
+              "duration": 24861600596
             }
           },
           {
@@ -100,708 +74,19 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3224556592
+              "duration": 2001327951
             }
           }
         ],
-        "tags": [
-          {
-            "name": "@TEST_TECH-7676",
-            "line": 3
-          }
-        ],
+        "tags": [],
         "type": "scenario"
       }
     ],
-    "id": "as-a-user-i-can-add-a-new-ad-group-from-campaign-sidebar",
+    "id": "fosoo",
     "line": 1,
     "keyword": "Feature",
-    "name": "As a user I can add a new ad-group from campaign sidebar",
+    "name": "Fosoo",
     "tags": [],
-    "uri": "features/add_adgroup.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
-        "id": "as-a-user-i-can-set-freq.-capping-for-any-ad-group;as-a-user-i-can-set-freq.-capping-for-any-ad-group",
-        "keyword": "Scenario",
-        "line": 4,
-        "name": "As a user I can set freq. capping for any ad-group",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 607009
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "I am on adv login page",
-            "match": {
-              "location": "features/step_definitions/base.js:76"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8376268097
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "I type authorized",
-            "match": {
-              "location": "features/step_definitions/base.js:82"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2456391472.0000005
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "I create new campaign",
-            "match": {
-              "location": "features/step_definitions/base.js:93"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 40433862242
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "I add freq cap",
-            "match": {
-              "location": "features/step_definitions/add_freq.js:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 48208565930
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "I see group freq",
-            "match": {
-              "location": "features/step_definitions/add_freq.js:39"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1972615591
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 10,
-            "name": "CLEAN",
-            "match": {
-              "location": "features/step_definitions/base.js:119"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5927572853
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 2755644269
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@TEST_TECH-7681",
-            "line": 3
-          }
-        ],
-        "type": "scenario"
-      }
-    ],
-    "id": "as-a-user-i-can-set-freq.-capping-for-any-ad-group",
-    "line": 1,
-    "keyword": "Feature",
-    "name": "As a user I can set freq. capping for any ad-group",
-    "tags": [],
-    "uri": "features/add_freq.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
-        "id": "as-a-user-i-can-set-a-targeting-for-any-ad-group;as-a-user-i-can-set-a-targeting-for-any-ad-group",
-        "keyword": "Scenario",
-        "line": 4,
-        "name": "As a user I can set a targeting for any ad-group",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 282591
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "I am on adv login page",
-            "match": {
-              "location": "features/step_definitions/base.js:76"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 9729791102
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "I type authorized",
-            "match": {
-              "location": "features/step_definitions/base.js:82"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2601183098
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "I create new campaign",
-            "match": {
-              "location": "features/step_definitions/base.js:93"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 45247159967
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "I add targeting",
-            "match": {
-              "location": "features/step_definitions/add_targeting.js:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 45154411423
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "I see group targeting",
-            "match": {
-              "location": "features/step_definitions/add_targeting.js:48"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1294009339
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 10,
-            "name": "CLEAN",
-            "match": {
-              "location": "features/step_definitions/base.js:119"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 10985261515
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 2845497167
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@TEST_TECH-7680",
-            "line": 3
-          }
-        ],
-        "type": "scenario"
-      }
-    ],
-    "id": "as-a-user-i-can-set-a-targeting-for-any-ad-group",
-    "line": 1,
-    "keyword": "Feature",
-    "name": "As a user I can set a targeting for any ad-group",
-    "tags": [],
-    "uri": "features/add_targeting.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
-        "id": "as-a-user-i-can-create-simple-campaign;as-a-user-i-can-create-simple-campaign",
-        "keyword": "Scenario",
-        "line": 4,
-        "name": "As a user I can create simple campaign",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1113688
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "I am on adv login page",
-            "match": {
-              "location": "features/step_definitions/base.js:76"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8192903799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "I type authorized",
-            "match": {
-              "location": "features/step_definitions/base.js:82"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1573610556
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "I select the campain type",
-            "match": {
-              "location": "features/step_definitions/create_campaign.js:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 911726718
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "I navigate to the campain page",
-            "match": {
-              "location": "features/step_definitions/create_campaign.js:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 746133317
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "I fill campaign form with valid data",
-            "match": {
-              "location": "features/step_definitions/create_campaign.js:18"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 26144056936
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 10,
-            "name": "I click campain - save and continue",
-            "match": {
-              "location": "features/step_definitions/create_campaign.js:39"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 694567071
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 11,
-            "name": "User has been created campaign successfully",
-            "match": {
-              "location": "features/step_definitions/create_campaign.js:44"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1708865571
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 12,
-            "name": "CLEAN",
-            "match": {
-              "location": "features/step_definitions/base.js:119"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3828783410
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 2418348695
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@TEST_TECH-7665",
-            "line": 3
-          }
-        ],
-        "type": "scenario"
-      }
-    ],
-    "id": "as-a-user-i-can-create-simple-campaign",
-    "line": 1,
-    "keyword": "Feature",
-    "name": "As a user I can create simple campaign",
-    "tags": [],
-    "uri": "features/create_campaign.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
-        "id": "as-a--user-i-can-login-successfully;as-a--user-i-can-login-successfully",
-        "keyword": "Scenario Outline",
-        "line": 4,
-        "name": "As a  user I can login successfully",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 283022
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "I am on adv login page",
-            "match": {
-              "location": "features/step_definitions/base.js:76"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8513442252.999999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "I type \"mohammed.murad@admixplay.com\" and \"Zoom+9321\"",
-            "match": {
-              "location": "features/step_definitions/user_can_login.js:9"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2663977978
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 7,
-            "name": "I should be told \"Authorized\"",
-            "match": {
-              "location": "features/step_definitions/user_can_login.js:50"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 291586
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 2347108140
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@TEST_TECH-7664",
-            "line": 3
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "as-a--user-i-can-login-successfully;as-a--user-i-can-login-successfully",
-        "keyword": "Scenario Outline",
-        "line": 4,
-        "name": "As a  user I can login successfully",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 254208
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "I am on adv login page",
-            "match": {
-              "location": "features/step_definitions/base.js:76"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8137547080
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "I type \"medo199.com\" and \"Zoom+9321\"",
-            "match": {
-              "location": "features/step_definitions/user_can_login.js:9"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2117689142.0000002
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 7,
-            "name": "I should be told \"InvEmail\"",
-            "match": {
-              "location": "features/step_definitions/user_can_login.js:50"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 187743
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 2347778851
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@TEST_TECH-7664",
-            "line": 3
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "as-a--user-i-can-login-successfully;as-a--user-i-can-login-successfully",
-        "keyword": "Scenario Outline",
-        "line": 4,
-        "name": "As a  user I can login successfully",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 314588
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "I am on adv login page",
-            "match": {
-              "location": "features/step_definitions/base.js:76"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 7659065225
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "I type \"mohammed.murad@admixplay.com\" and \"DsopF93+22\"",
-            "match": {
-              "location": "features/step_definitions/user_can_login.js:9"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1986470776
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 7,
-            "name": "I should be told \"InvPassword\"",
-            "match": {
-              "location": "features/step_definitions/user_can_login.js:50"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 149829
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 2317094907
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@TEST_TECH-7664",
-            "line": 3
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "as-a--user-i-can-login-successfully;as-a--user-i-can-login-successfully",
-        "keyword": "Scenario Outline",
-        "line": 4,
-        "name": "As a  user I can login successfully",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 283076
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "I am on adv login page",
-            "match": {
-              "location": "features/step_definitions/base.js:76"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8452544608
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "I type \"mohammed.murad@admixplay.com\" and \"zoom94\"",
-            "match": {
-              "location": "features/step_definitions/user_can_login.js:9"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1939561639
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 7,
-            "name": "I should be told \"ShortPassword\"",
-            "match": {
-              "location": "features/step_definitions/user_can_login.js:50"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 159946
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 2396992922
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@TEST_TECH-7664",
-            "line": 3
-          }
-        ],
-        "type": "scenario"
-      }
-    ],
-    "id": "as-a--user-i-can-login-successfully",
-    "line": 1,
-    "keyword": "Feature",
-    "name": "As a  user I can login successfully",
-    "tags": [],
-    "uri": "features/user_can_login.feature"
+    "uri": "features/foosoo.feature"
   }
 ]
